@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!--tailwind-->
+  <script src="https://cdn.tailwindcss.com/"></script>
+  <!--taileind-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive comments section</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body class="text-base"><!--body-->
+  <main class="w-full bg-slate-200 flex justify-center align-center py-8"><!--the white bg-->
+    <div class="w-8/12"><!--content div-->
+      <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg mb-6"><!--the first section-->
+        <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-1 h-20 mr-4"><!--plus and minus-->
+          <div class="justify-self-center self-center">
+            <img src="images/icon-plus.svg" alt="" class="w-3">
+          </div>
+          <div class="grid place-items-center">
+            <span class="text-sm font-bold text-blue-500">12</span>
+          </div>
+          <div class="justify-self-center self-center">
+            <img src="images/icon-minus.svg" alt="" class="w-3">
+          </div>
+        </div><!--plus and minus ends-->
+        <div><!--comment box-->
+          <div class="flex justify-between"><!--names date and replies-->
+            <div class="flex align-center items-center"><!--picture and date-->
+              <div>
+                <img src="images/avatars/image-amyrobson.png" alt="profile picture" class="w-10 mr-4">
+              </div>
+              <span class="text-black font-bold mr-4">Amyrobson</span>
+              <span class="text-slate-500">1 Month ago</span>
+            </div>
+            <div class="flex justify-center items-center"><!--reply-->
+              <a href="#"><img src="images/icon-reply.svg" alt="reply" class="w-4 mr-2"></a>
+              <span class="text-blue-500 font-bold">Reply</span>
+            </div>
+          </div>
+          <div class="py-3 text-slate-500 font-semibold">
+            <p class="pr-20 height-8-20">Impessive! though it seems the drag feature could be improved but the overall it look incredible. You've nailes the design and the responsiveness at various breakpoints works very well.</p>
+          </div>
+        </div><!--comment box-->
+      </section><!--first section ends-->
+
+      <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg mb-6"><!--the first section-->
+        <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-2 h-20 mr-4"><!--plus and minus-->
+          <div class="justify-self-center self-center">
+            <img src="images/icon-plus.svg" alt="" class="w-3">
+          </div>
+          <div class="grid place-items-center">
+            <span class="text-sm font-bold text-blue-500">5</span>
+          </div>
+          <div class="justify-self-center self-center">
+            <img src="images/icon-minus.svg" alt="" class="w-3">
+          </div>
+        </div><!--plus and minus ends-->
+        <div><!--comment box-->
+          <div class="flex justify-between"><!--names date and replies-->
+            <div class="flex align-center items-center"><!--picture and date-->
+              <div>
+                <img src="images/avatars/image-maxblagun.png" alt="profile picture" class="w-10 mr-4">
+              </div>
+              <span class="text-black font-bold mr-4">Maxblagun</span>
+              <span class="text-slate-500">2 weeks ago</span>
+            </div>
+            <div class="flex justify-center items-center"><!--reply-->
+              <a href="#"><img src="images/icon-reply.svg" alt="reply" class="w-4 mr-2"></a>
+              <span class="text-blue-500 font-bold">Reply</span>
+            </div>
+          </div>
+          <div class="py-3 text-slate-500 font-semibold">
+            <p class="pr-20 height-8-20">waoh! your projects looks awesome! how long have you been coding for? i am still new. but think i was to dive into react soon. perhaps you can give me an insight on where i can learn react? thanks.</p>
+          </div>
+        </div><!--comment box-->
+      </section><!--first section ends-->
+      
+      <div class="flex justify-between mb-6">
+        <div class="w-1 bg-slate-300 ml-9 rounded-sm"></div><!--vertical line-->
+        <div class="w-11/12">
+          <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg mb-6"><!--the first section-->
+            <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-2 h-20 mr-4"><!--plus and minus-->
+              <div class="justify-self-center self-center">
+                <img src="images/icon-plus.svg" alt="" class="w-3">
+              </div>
+              <div class="grid place-items-center">
+                <span class="text-sm font-bold text-blue-500">4</span>
+              </div>
+              <div class="justify-self-center self-center">
+                <img src="images/icon-minus.svg" alt="" class="w-3">
+              </div>
+            </div><!--plus and minus ends-->
+            <div><!--comment box-->
+              <div class="flex justify-between"><!--names date and replies-->
+                <div class="flex align-center items-center"><!--picture and date-->
+                  <div>
+                    <img src="images/avatars/image-ramsesmiron.png" alt="profile picture" class="w-10 mr-4">
+                  </div>
+                  <span class="text-black font-bold mr-4">ramsesmiron</span>
+                  <span class="text-slate-500">2 weeks ago</span>
+                </div>
+                <div class="flex justify-center items-center"><!--reply-->
+                  <a href="#"><img src="images/icon-reply.svg" alt="reply" class="w-4 mr-2"></a>
+                  <span class="text-blue-500 font-bold">Reply</span>
+                </div>
+              </div>
+              <div class="py-3 text-slate-500 font-semibold">
+                <p class="pr-20 height-8-20"><span class="text-blue-500 font-bold">@Maxblagun</span>  if you are still new i will suggest focusing on the fundamental of html css and js before considering react. Its very tempting to jump ahead but lay a very solid foundation first.</p>
+              </div>
+            </div><!--comment box-->
+          </section><!--first section ends-->
+  
+          <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg "><!--the first section-->
+            <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-2 h-20 mr-4"><!--plus and minus-->
+              <div class="justify-self-center self-center">
+                <img src="images/icon-plus.svg" alt="icon-plus" class="w-3">
+              </div>
+              <div class="grid place-items-center">
+                <span class="text-sm font-bold text-blue-500">2</span>
+              </div>
+              <div class="justify-self-center self-center">
+                <img src="images/icon-minus.svg" alt="icon-minus" class="w-3">
+              </div>
+            </div><!--plus and minus ends-->
+            <div><!--comment box-->
+              <div class="flex justify-between"><!--names date and replies-->
+                <div class="flex align-center items-center"><!--picture and date-->
+                  <div>
+                    <img src="images/avatars/image-juliusomo.png" alt="profile picture" class="w-10 mr-4">
+                  </div>
+                  <span class="text-black font-bold mr-4">Juliusomo</span>
+                  <span class="bg-blue-500 text-white font-bold text-small mr-4 h-6 pt-0 px-1 rounded-sm">You</span>
+                  <span class="text-slate-500">2 weeks ago</span>
+                </div>
+                <div class="flex justify-center items-center"><!--reply-->
+                  <div class="flex justify-center items-center mr-4">
+                    <a href="#"><img src="images/icon-delete.svg" alt="Delete icon" class="mr-2"></a>
+                    <span class="text-red-400 font-bold">Delete</span>
+                  </div>
+                  <div class="flex justify-center items-center">
+                    <a href="#"><img src="images/icon-reply.svg" alt="reply" class="w-4 mr-2"></a>
+                    <span class="text-blue-500 font-bold">Reply</span>
+                  </div>
+                </div>
+              </div>
+              <div class="py-3 text-slate-500 font-semibold">
+                <p class="pr-20 height-8-20"><span class="text-blue-500 font-bold">@ramsesmiron</span> I couldn"t agree more with this. Everything moves so fast and it always seemd like everyone knows the newest library/framework but the fundantals are what stays constant.</p>
+              </div>
+            </div><!--comment box-->
+          </section><!--first section ends-->
+        </div>
+      </div>
+    </div><!--content div ends-->
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
