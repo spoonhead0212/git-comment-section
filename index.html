@@ -17,13 +17,13 @@
       <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg mb-6"><!--the first section-->
         <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-1 h-20 mr-4"><!--plus and minus-->
           <div class="justify-self-center self-center">
-            <img src="images/icon-plus.svg" alt="" class="w-3">
+            <a href="#"><img src="images/icon-plus.svg" alt="" class="w-3"></a>
           </div>
           <div class="grid place-items-center">
             <span class="text-sm font-bold text-blue-500">12</span>
           </div>
           <div class="justify-self-center self-center">
-            <img src="images/icon-minus.svg" alt="" class="w-3">
+            <a href="#"><img src="images/icon-minus.svg" alt="" class="w-3 hover:text-blue-500"></a>
           </div>
         </div><!--plus and minus ends-->
         <div><!--comment box-->
@@ -113,7 +113,7 @@
             </div><!--comment box-->
           </section><!--first section ends-->
   
-          <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg "><!--the first section-->
+          <section class="flex bg-white p-8 rounded-lg shadow-black contrast-100 drop-shadow-lg"><!--the first section-->
             <div class="text-center bg-blue-100 rounded-md grid grid-row-3 justify-center px-2 h-20 mr-4"><!--plus and minus-->
               <div class="justify-self-center self-center">
                 <img src="images/icon-plus.svg" alt="icon-plus" class="w-3">
@@ -138,11 +138,11 @@
                 <div class="flex justify-center items-center"><!--reply-->
                   <div class="flex justify-center items-center mr-4">
                     <a href="#"><img src="images/icon-delete.svg" alt="Delete icon" class="mr-2"></a>
-                    <span class="text-red-400 font-bold">Delete</span>
+                    <a href="#" class="text-red-400 hover:text-red-200 font-bold"><span>Delete</span></a>
                   </div>
                   <div class="flex justify-center items-center">
                     <a href="#"><img src="images/icon-reply.svg" alt="reply" class="w-4 mr-2"></a>
-                    <span class="text-blue-500 font-bold">Reply</span>
+                    <a href="#" class="text-blue-500 hover:text-blue-300 font-bold"><span>Edit</span></a>
                   </div>
                 </div>
               </div>
@@ -153,6 +153,16 @@
           </section><!--first section ends-->
         </div>
       </div>
+
+      <section class="flex bg-white py-8 px-4 rounded-lg shadow-black contrast-100 drop-shadow-lg">
+        <div class="pr-4">
+          <img src="images/avatars/image-juliusomo.png" alt="avatar picture" class="w-10">
+        </div>
+        <form action="" class="w-full flex">
+          <input type="text" name="text" id="texting" placeholder="Add a comment..." size="72" class="h-20 px-2 rounded-lg focus:border focus:border-solid focuc:border-12">
+          <button class="bg-blue-500 text-white font-bold h-8 px-4 ml-2 uppercase rounded-md hover:bg-blue-600">send</button>
+        </form>
+      </section>
     </div><!--content div ends-->
   </main>
 
